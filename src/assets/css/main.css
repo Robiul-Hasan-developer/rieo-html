@@ -3741,7 +3741,17 @@ input:focus, input:focus-visible {
     transform: scale(0);
 }
 
-.show-socials-icons.active .show-socials-icons__item {
+.show-socials-icons {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.social-icons-wrapper:hover .show-socials-icons {
+    visibility: visible;
+    opacity: 1;
+}
+
+.social-icons-wrapper:hover .show-socials-icons__item {
     transform: scale(1);
 }
 

@@ -29,9 +29,10 @@
 
 .swiper-slide-active {
     .social-icons-wrapper {
-        visibility: visible !important; 
+        visibility: visible !important;
         opacity: 1 !important;
     }
+
     .line-border {
         transform: rotate(-55deg) scale(1);
     }
@@ -46,8 +47,20 @@
     transform: scale(0);
 }
 
-.show-socials-icons.active .show-socials-icons__item {
-    transform: scale(1);
+.show-socials-icons {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.social-icons-wrapper:hover {
+    .show-socials-icons {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .show-socials-icons__item {
+        transform: scale(1);
+    }
 }
 
 /* Team section css end */

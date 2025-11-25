@@ -211,13 +211,6 @@
     });
     // ========================= magnific Popup Js End =====================
 
-    // ========================= Team Section Social icons Js Start =====================
-    $(document).on("click", ".show-social-icon-button", function () {
-      $(this).toggleClass("active");
-      $(this).closest("div").find(".show-socials-icons").toggleClass("active");
-    });
-    // ========================= Team Section Social icons Js End =====================
-
     // ================================ Team slider js Start =================================
     var teamSlider = new Swiper(".team-slider", {
       slidesPerView: 1,
