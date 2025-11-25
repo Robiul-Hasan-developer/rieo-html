@@ -1,0 +1,29 @@
+/* Font Size Class Start */
+.text {
+  &-inherit {
+      font-size: inherit;
+  }
+}
+
+@each $property, $value in $font-sizes {
+  .tw-text-#{$property} {
+    font-size: $value;
+  }
+}  
+/* Font Size Class End */
+
+
+@each $property, $value in $spaces {
+    .tw-text-#{$property} {
+      font-size: $value;
+    }
+}  
+
+.tw-text-80-px {
+  font-size: 80px;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+/* Font Size Class End */

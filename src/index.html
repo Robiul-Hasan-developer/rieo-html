@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="EduAll, Social Media, and Digital Marketing Agency HTML Template. Fully responsive, creative design, and easy to customize. Ideal for EduAll agencies, marketing firms, and startups.">
+  <meta name="keywords"
+    content="EduAll HTML Template, Digital Marketing, Social Media Agency, Marketing Template, Advertising Agency, Creative Agency, Bootstrap, Responsive">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Portfolio HTML Template</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <!-- Swiper slider -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="background-img bg-img" data-background-image="assets/images/bg/gradient-bg.png">
+  <!--==================== Preloader Start ====================-->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!--==================== Preloader End ====================-->
+
+  <!-- ========================== Settings Panel start ==================================== -->
+<div
+  class="settings-panel position-fixed top-50 translate-middle-y tw-z-999 d-flex align-items-center"
+>
+  <button
+    type="button"
+    class="settings-button tw-w-12 tw-h-12 bg-main-600 text-black hover-bg-main-800 tw-duration-100 d-flex justify-content-center align-items-center"
+  >
+    <i
+      class="ph-fill ph-gear-six setting-icon tw-text-2xl tw-leading-none animation-rotate tw-w-6 tw-h-6"
+    ></i>
+    <i
+      class="ph-bold ph-x close-icon tw-text-2xl tw-leading-none tw-w-6 tw-h-6"
+    ></i>
+  </button>
+
+  <div
+    class="settings-panel__content bg-neutral-800 tw-px-6 tw-py-13 d-flex flex-column tw-gap-10 scroll-sm overflow-y-auto"
+  >
+    <div class="d-flex flex-column tw-gap-10">
+      <div class="">
+        <h6 class="settings-panel__title text-center tw-mb-6 text-uppercase">
+          Cursor
+        </h6>
+        <div class="settings-panel__buttons cursor__buttons d-flex tw-gap-4">
+          <button
+            type="button"
+            class="settings-panel__button cursor-animate bg-neutral-700 hover-bg-main-600 tw-duration-300 text-white hover-text-black tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active"
+          >
+            Animate
+          </button>
+          <button
+            type="button"
+            class="settings-panel__button cursor-default bg-neutral-700 hover-bg-main-600 tw-duration-300 text-white hover-text-black tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1"
+          >
+            Default
+          </button>
+        </div>
+      </div>
+      <div class="">
+        <h6 class="settings-panel__title text-center tw-mb-6 text-uppercase">
+          Direction
+        </h6>
+        <div class="settings-panel__buttons d-flex tw-gap-4">
+          <button
+            type="button"
+            class="settings-panel__button direction-ltr bg-neutral-700 hover-bg-main-600 tw-duration-300 text-white hover-text-black tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active"
+          >
+            LTR
+          </button>
+          <button
+            type="button"
+            class="settings-panel__button direction-rtl bg-neutral-700 hover-bg-main-600 tw-duration-300 text-white hover-text-black tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1"
+          >
+            RTL
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ========================== Settings Panel end ==================================== -->
+
+
+  <!--==================== Overlay Start ====================-->
+  <div class="overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay End ====================-->
+  <div class="side-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+
+  <!-- Custom Toast Message start -->
+  <div id="toast-container"></div>
+  <!-- Custom Toast Message End -->
+
+  <!-- ==================== Scroll to Top End Here ==================== -->
+  <div class="progress-wrap cursor-big">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- ==================== Scroll to Top End Here ==================== -->
+
+  <!-- Custom Cursor Start -->
+  <div class="cursor"></div>
+  <span class="dot"></span>
+  <!-- Custom Cursor End -->
+
+  <!-- ==================== Search Popup Start Here ==================== -->
+  <div class="search-popup bg-white tw-py-17 tw-px-4 d-flex align-items-center justify-content-center bg-white">
+    <div class="container">
+      <div class="tw-pb-15">
+        <button type="button"
+          class="search-popup__close d-flex justify-content-center align-items-center text-black tw-text-2xl tw-w-16 tw-h-16 bg-main-600 rounded-circle mx-auto">
+          <i class="ph-bold ph-x"></i>
+        </button>
+      </div>
+      <form action="#" class="search-popup__form position-relative tw-pt-6">
+        <input type="search" class="search-popup__input text-black" placeholder="Search Here...">
+        <button type="submit"
+          class="tw-text-3xl tw-leading-none text-heading hover-text-main-600 position-absolute tw-end-0 top-50 translate-middle-y">
+          <i class="ph-bold ph-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- ==================== Search Popup End Here ==================== -->
+
+  <!-- ==================== Mobile Menu Start Here ==================== -->
+<div class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-neutral-800 overflow-y-auto tw-p-6 tw-z-999 tw-pb-15">
+
+    <button type="button" class="close-button position-absolute end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"> 
+        <i class="ph ph-x"></i>
+    </button>
+
+    <div class="mobile-menu__inner">
+        <a href="index.html" class="mobile-menu__logo">
+            <img src="assets/images/logo/logo.png" alt="Logo">
+        </a>
+        <div class="mobile-menu__menu">
+            <!-- Nav menu Start -->
+<ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+  <li class="nav-menu__item has-submenu activePage">
+    <a
+      href="javascript:void(0)"
+      class="nav-menu__link tw-pe-5 text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >Home</a
+    >
+    <!-- mega menu start -->
+<div
+  class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99">
+  <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <a href="index.html" class="d-block">
+            <img src="assets/images/thumbs/home-img1.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </a>
+          <div class="d-lg-flex d-none">
+            <div
+              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+            </div>
+            <div
+              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+              <a href="index.html"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                  class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                  <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <a href="index.html"
+            class="text-black hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">SEO Agency</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <a href="index-2.html" class="d-block">
+            <img src="assets/images/thumbs/home-img2.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </a>
+          <div class="d-lg-flex d-none">
+            <div
+              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+            </div>
+            <div
+              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+              <a href="index-2.html"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                  class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                  <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <a href="index-2.html"
+            class="text-black hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Web Hosting</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <a href="index-3.html" class="d-block">
+            <img src="assets/images/thumbs/home-img3.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </a>
+          <div class="d-lg-flex d-none">
+            <div
+              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+            </div>
+            <div
+              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+              <a href="index-3.html"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                  class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                  <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <a href="index-3.html"
+            class="text-black hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Task
+            Management</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <span class="d-block">
+            <img src="assets/images/thumbs/coming-soon-img.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </span>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <span class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1">Home 5</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- mega menu end -->
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >About Me</a
+    >
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >PROJECTS</a
+    >
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >My Stack</a
+    >
+  </li>
+  
+  <li class="nav-menu__item has-submenu position-relative">
+    <a
+      href="javascript:void(0)"
+      class="nav-menu__link tw-pe-5 text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >News</a
+    >
+    <ul
+      class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99"
+    >
+      <li
+        class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+      >
+        <a
+          href="#"
+          class="nav-submenu__link hover-bg-neutral-200 text-black fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+        >
+          News Classic</a
+        >
+      </li>
+      <li
+        class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+      >
+        <a
+          href="#"
+          class="nav-submenu__link hover-bg-neutral-200 text-black fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+        >
+          News Details</a
+        >
+      </li>
+    </ul>
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >Lets talk</a
+    >
+  </li>
+</ul>
+<!-- Nav menu End  -->
+
+        </div>
+    </div>
+</div>
+<!-- ==================== Mobile Menu End Here ==================== -->
+
+<!-- ==================== Header Start Here ==================== -->
+<header class="header tw-transition-all tw-z-99">
+  <div class="container">
+    <nav class="d-flex align-items-center justify-content-between position-relative">
+      <!-- Logo Start -->
+      <div class="logo">
+        <a href="index.html" class="link">
+          <img src="assets/images/logo/logo.png" alt="Logo" class="max-w-200-px">
+        </a>
+      </div>
+      <!-- Logo End  -->
+
+      <!-- Menu Start  -->
+      <div class="header-menu d-lg-block d-none">
+        <!-- Nav menu Start -->
+<ul class="nav-menu d-lg-flex align-items-center tw-gap-6">
+  <li class="nav-menu__item has-submenu activePage">
+    <a
+      href="javascript:void(0)"
+      class="nav-menu__link tw-pe-5 text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >Home</a
+    >
+    <!-- mega menu start -->
+<div
+  class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99">
+  <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <a href="index.html" class="d-block">
+            <img src="assets/images/thumbs/home-img1.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </a>
+          <div class="d-lg-flex d-none">
+            <div
+              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+            </div>
+            <div
+              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+              <a href="index.html"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                  class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                  <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <a href="index.html"
+            class="text-black hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">SEO Agency</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <a href="index-2.html" class="d-block">
+            <img src="assets/images/thumbs/home-img2.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </a>
+          <div class="d-lg-flex d-none">
+            <div
+              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+            </div>
+            <div
+              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+              <a href="index-2.html"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                  class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                  <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <a href="index-2.html"
+            class="text-black hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Web Hosting</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <a href="index-3.html" class="d-block">
+            <img src="assets/images/thumbs/home-img3.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </a>
+          <div class="d-lg-flex d-none">
+            <div
+              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+            </div>
+            <div
+              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+              <a href="index-3.html"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                  class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                  <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <a href="index-3.html"
+            class="text-black hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Task
+            Management</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mega-menu-item group-item">
+        <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+          <span class="d-block">
+            <img src="assets/images/thumbs/coming-soon-img.png" alt="Home Page Image"
+              class="tw-h-320-px w-100 object-fit-cover object-top">
+          </span>
+        </div>
+        <div class="tw-mt-4 text-center">
+          <span class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1">Home 5</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- mega menu end -->
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >About Me</a
+    >
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >PROJECTS</a
+    >
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >My Stack</a
+    >
+  </li>
+  
+  <li class="nav-menu__item has-submenu position-relative">
+    <a
+      href="javascript:void(0)"
+      class="nav-menu__link tw-pe-5 text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >News</a
+    >
+    <ul
+      class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99"
+    >
+      <li
+        class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+      >
+        <a
+          href="#"
+          class="nav-submenu__link hover-bg-neutral-200 text-black fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+        >
+          News Classic</a
+        >
+      </li>
+      <li
+        class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+      >
+        <a
+          href="#"
+          class="nav-submenu__link hover-bg-neutral-200 text-black fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+        >
+          News Details</a
+        >
+      </li>
+    </ul>
+  </li>
+  <li class="nav-menu__item">
+    <a href="#" class="nav-menu__link text-heading tw-py-9 w-100 text-uppercase fw-semibold"
+      >Lets talk</a
+    >
+  </li>
+</ul>
+<!-- Nav menu End  -->
+
+      </div>
+      <!-- Menu End  -->
+
+      <!-- Header Right start -->
+      <div class="d-lg-flex d-none align-items-center tw-gap-6">
+        <ul class="d-flex align-items-center tw-gap-5">
+          <li>
+            <a href="https://www.dribbble.com" class="tw-text-lg text-main-600 hover-text-main-700">
+              <i class="ph ph-dribbble-logo"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="tw-text-lg text-main-600 hover-text-main-700">
+              <i class="ph-fill ph-twitter-logo"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" class="tw-text-lg text-main-600 hover-text-main-700">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center tw-gap-1">
+          <span class="tw-w-px bg-white bg-opacity-50 tw-h-4"></span>
+          <span class="tw-w-px bg-white bg-opacity-50 tw-h-7"></span>
+        </div>
+        <div class="d-flex align-items-center tw-gap-3">
+          <button type="button"
+            class="tw-text-2xl tw-leading-none text-heading hover-text-main-600 position-relative tw-pe-205 tw-pt-1">
+            <i class="ph ph-basket"></i>
+            <span class="tw-text-sm fw-bold text-main-600 position-absolute end-0 top-0 ">0</span>
+          </button>
+          <button type="button"
+            class="search-popup__button tw-text-2xl tw-leading-none text-heading hover-text-main-600">
+            <i class="ph-bold ph-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="">
+          <a href="#"
+            class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+            data-block="button">
+            <span class="button__flair"></span>
+            <span class="button__label tw-ps-4">LET'S Work</span>
+            <span
+              class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+              <i class="ph-bold ph-arrow-up-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+      <button type="button" class="toggle-mobileMenu leading-none d-lg-none ms-3 text-white tw-text-9">
+        <i class="ph ph-list"></i>
+      </button>
+      <!-- Header Right End  -->
+    </nav>
+  </div>
+</header>
+<!-- ==================== Header End Here ==================== -->
+
+<div id="smooth-wrapper" class="mt-96-px">
+    <div id="smooth-content" class="pb-150-px">
+        <main>  
+            <!-- ======================== Video Section start ========================= -->
+<section class="video-section">
+    <div class="container">
+        <div class="tw-p-6 position-relative z-1">
+            <img src="assets/images/shapes/square-shape-two.png" alt="Square Shape Two Image"
+                class="position-absolute top-50 start-50 translate-middle w-100 h-100">
+            <div class="min-h-700-px w-100 overflow-hidden scale-up-wrapper position-relative">
+                    <img src="assets/images/thumbs/video-img.png" class="w-100 h-100 min-h-700-px object-fit-cover scale-up__img" alt="Agency Video Image">
+                <div
+                    class="bg-main-600 bg-opacity-50 tw-px-10 tw-py-15 max-w-550-px w-100 position-absolute bottom-0 start-0">
+                    <h2 class="cursor-big splitTextStyle text-uppercase fw-800 text-black">pubg world cup</h2>
+                    <span class="tw-w-16 tw-h-105 bg-black rounded-pill"></span>
+                    <h6 class="text-black tw-mt-4">2024</h6>
+                </div>
+
+                <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg"
+                    class="play-button text-white tw-text-80-px position-absolute start-50 translate-middle top-50 z-1 hover-bg-main-two-600 hover-text-white d-flex">
+                    <i class="ph ph-play-circle"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================== Video Section end ========================= -->
+            
+            <!-- ======================== Team section start ========================== -->
+<section class="team py-120">
+    <div class="container max-w-1430-px">
+        <div class="row gy-4">
+            <div class="col-xl-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
+                <div class="text-end pe-xxl-5">
+                    <span class="">
+                        <img src="assets/images/icons/video-circle-icon.png" alt="Circle Video Icon">
+                    </span>
+                    <h2 class="cursor-big splitTextStyle text-uppercase tw-mt-6">
+                        <div class="d-inline-flex align-items-center tw-gap-6">
+                            <img src="assets/images/icons/bitting-icon.png" alt="Icon">
+                            meet
+                        </div>
+                        <br> team members
+                    </h2>
+                    <div class="d-inline-flex align-items-center tw-gap-4 tw-mt-6">
+                        <div
+                            class="border border-neutral-400 tw-border-dashed tw-w-14 tw-h-14 d-flex justify-content-center align-items-center rounded-circle hover-border-main-600 tw-duration-300">
+                            <button
+                                class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center text-neutral-400 hover-text-heading tw-duration-300 border border-neutral-400  hover-border-main-600 rounded-circle team-new-prev"
+                                aria-label="Previous slide">
+                                <i class="ph ph-caret-left"></i>
+                            </button>
+                        </div>
+                        <div
+                            class="border border-neutral-400 tw-border-dashed tw-w-14 tw-h-14 d-flex justify-content-center align-items-center rounded-circle hover-border-main-600 tw-duration-300">
+                            <button
+                                class="tw-w-12 tw-h-12 d-flex justify-content-center align-items-center text-neutral-400 hover-text-heading tw-duration-300 border border-neutral-400  hover-border-main-600 rounded-circle team-new-next"
+                                aria-label="Next slide">
+                                <i class="ph ph-caret-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-8">
+                <div class="swiper team-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                            <div class="team-item tw-py-705 tw-px-7 group group-item position-relative z-1">
+                                <div class="">
+                                    <figure
+                                        class="team-item__thumbs mb-0 overflow-hidden rounded-circle hover-animation-white">
+                                        <img src="assets/images/thumbs/team-img1.png" alt="Mark Jonson's Image"
+                                            class="group-hover-item-scale-12 tw-duration-300">
+                                    </figure>
+                                    <div class="tw-mt-8">
+                                        <h5 class="">
+                                            <a href="team-details.html"
+                                                class="text-uppercase cursor-big text-white hover-underline">mark
+                                                jonson</a>
+                                        </h5>
+                                        <span
+                                            class="team-item__designation text-uppercase tw-text-sm fw-semibold text-body text-light tw-mt-2 tw-duration-300">ui/ux
+                                            designer</span>
+                                    </div>
+                                </div>
+
+                                <img src="assets/images/shapes/team-item-shape.png" alt="Card Shape"
+                                    class="position-absolute z-n1 top-50 start-50 translate-middle w-100 h-100">
+                                <div
+                                    class="social-icons-wrapper position-absolute end-0 top-0 z-1 tw-me-6 z-3 tw-mt-6 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-duration-300">
+                                    <button type="button"
+                                        class="show-social-icon-button text-main-600 tw-duration-300 tw-text-xl d-flex">
+                                        <i class="ph-fill ph-share-network"></i>
+                                    </button>
+                                    <div
+                                        class="show-socials-icons d-flex flex-column tw-gap-2 position-absolute top-100 start-50 translate-middle-x tw-mt-2 z-1">
+                                        <a href="https://www.facebook.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-facebook-logo"></i>
+                                        </a>
+                                        <a href="https://www.twitter.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-twitter-logo"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-linkedin-logo"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-instagram-logo"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <span class="line-border"></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                            <div class="team-item tw-py-705 tw-px-7 group group-item position-relative z-1">
+                                <div class="">
+                                    <figure
+                                        class="team-item__thumbs mb-0 overflow-hidden rounded-circle hover-animation-white">
+                                        <img src="assets/images/thumbs/team-img2.png" alt="Mark Jonson's Image"
+                                            class="group-hover-item-scale-12 tw-duration-300">
+                                    </figure>
+                                    <div class="tw-mt-8">
+                                        <h5 class="">
+                                            <a href="team-details.html"
+                                                class="text-uppercase cursor-big text-white hover-underline">Robiul Hasan</a>
+                                        </h5>
+                                        <span
+                                            class="team-item__designation text-uppercase tw-text-sm fw-semibold text-body text-light tw-mt-2 tw-duration-300">digital
+                                            marketing</span>
+                                    </div>
+                                </div>
+
+                                <img src="assets/images/shapes/team-item-shape.png" alt="Card Shape"
+                                    class="position-absolute z-n1 top-50 start-50 translate-middle w-100 h-100">
+                                <div
+                                    class="social-icons-wrapper position-absolute end-0 top-0 z-1 tw-me-6 z-3 tw-mt-6 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-duration-300">
+                                    <button type="button"
+                                        class="show-social-icon-button text-main-600 tw-duration-300 tw-text-xl d-flex">
+                                        <i class="ph-fill ph-share-network"></i>
+                                    </button>
+                                    <div
+                                        class="show-socials-icons d-flex flex-column tw-gap-2 position-absolute top-100 start-50 translate-middle-x tw-mt-2 z-1">
+                                        <a href="https://www.facebook.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-facebook-logo"></i>
+                                        </a>
+                                        <a href="https://www.twitter.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-twitter-logo"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-linkedin-logo"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-instagram-logo"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <span class="line-border"></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                            <div class="team-item tw-py-705 tw-px-7 group group-item position-relative z-1">
+                                <div class="">
+                                    <figure
+                                        class="team-item__thumbs mb-0 overflow-hidden rounded-circle hover-animation-white">
+                                        <img src="assets/images/thumbs/team-img3.png" alt="Mark Jonson's Image"
+                                            class="group-hover-item-scale-12 tw-duration-300">
+                                    </figure>
+                                    <div class="tw-mt-8">
+                                        <h5 class="">
+                                            <a href="team-details.html"
+                                                class="text-uppercase cursor-big text-white hover-underline">alaxrner</a>
+                                        </h5>
+                                        <span
+                                            class="team-item__designation text-uppercase tw-text-sm fw-semibold text-body text-light tw-mt-2 tw-duration-300">web
+                                            developer</span>
+                                    </div>
+                                </div>
+
+                                <img src="assets/images/shapes/team-item-shape.png" alt="Card Shape"
+                                    class="position-absolute z-n1 top-50 start-50 translate-middle w-100 h-100">
+                                <div
+                                    class="social-icons-wrapper position-absolute end-0 top-0 z-1 tw-me-6 z-3 tw-mt-6 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-duration-300">
+                                    <button type="button"
+                                        class="show-social-icon-button text-main-600 tw-duration-300 tw-text-xl d-flex">
+                                        <i class="ph-fill ph-share-network"></i>
+                                    </button>
+                                    <div
+                                        class="show-socials-icons d-flex flex-column tw-gap-2 position-absolute top-100 start-50 translate-middle-x tw-mt-2 z-1">
+                                        <a href="https://www.facebook.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-facebook-logo"></i>
+                                        </a>
+                                        <a href="https://www.twitter.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-twitter-logo"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-linkedin-logo"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-instagram-logo"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <span class="line-border"></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                            <div class="team-item tw-py-705 tw-px-7 group group-item position-relative z-1">
+                                <div class="">
+                                    <figure
+                                        class="team-item__thumbs mb-0 overflow-hidden rounded-circle hover-animation-white">
+                                        <img src="assets/images/thumbs/team-img2.png" alt="Mark Jonson's Image"
+                                            class="group-hover-item-scale-12 tw-duration-300">
+                                    </figure>
+                                    <div class="tw-mt-8">
+                                        <h5 class="">
+                                            <a href="team-details.html"
+                                                class="text-uppercase cursor-big text-white hover-underline">halana
+                                                max</a>
+                                        </h5>
+                                        <span
+                                            class="team-item__designation text-uppercase tw-text-sm fw-semibold text-body text-light tw-mt-2 tw-duration-300">digital
+                                            marketing</span>
+                                    </div>
+                                </div>
+
+                                <img src="assets/images/shapes/team-item-shape.png" alt="Card Shape"
+                                    class="position-absolute z-n1 top-50 start-50 translate-middle w-100 h-100">
+                                <div
+                                    class="social-icons-wrapper position-absolute end-0 top-0 z-1 tw-me-6 z-3 tw-mt-6 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-duration-300">
+                                    <button type="button"
+                                        class="show-social-icon-button text-main-600 tw-duration-300 tw-text-xl d-flex">
+                                        <i class="ph-fill ph-share-network"></i>
+                                    </button>
+                                    <div
+                                        class="show-socials-icons d-flex flex-column tw-gap-2 position-absolute top-100 start-50 translate-middle-x tw-mt-2 z-1">
+                                        <a href="https://www.facebook.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-facebook-logo"></i>
+                                        </a>
+                                        <a href="https://www.twitter.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-twitter-logo"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-linkedin-logo"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com"
+                                            class="show-socials-icons__item tw-w-10 tw-h-10 text-black bg-white tw-text-xl rounded-circle tw-duration-300 common-shadow-3 hover-bg-main-600 hover-text-white tw-scale-0 tw-duration-200 d-flex justify-content-center align-items-center">
+                                            <i class="ph-fill ph-instagram-logo"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <span class="line-border"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================== Team section end ========================== -->
+            
+            <!-- ==================== Footer Start Here ==================== -->
+<footer class="mt-auto">
+  <div class="footer tw-py-15 position-relative z-1">
+    <img src="assets/images/shapes/footer-shape.png" alt="Footer Shape" class="position-absolute top-0 start-0 h-100 z-n1 tw-ms-4">
+    
+    <div class="container">
+      <div class="overflow-hidden">
+        <!-- Logo Start -->
+        <div class="logo text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <a href="index.html" class="link">
+            <img src="assets/images/logo/favicon.png" alt="Logo" class="max-w-200-px">
+          </a>
+        </div>
+        <!-- Logo End  -->
+        <div class="d-flex align-items-center tw-gap-2 justify-content-center tw-mt-5" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <a href="mailto:info@ rieo.com"
+            class="text-light text-line-1 fw-semibold tw-text-sm text-uppercase hover-text-main-600">info@ rieo.com</a>
+          <span class="text-light text-line-1 fw-semibold tw-text-sm text-uppercase">-</span>
+          <a href="tel:+1999888666"
+            class="text-light text-line-1 fw-semibold tw-text-sm text-uppercase hover-text-main-600"> +1 999 888 666</a>
+        </div>
+        <ul class="d-flex align-items-center tw-gap-6 justify-content-center tw-mt-8 flex-wrap" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+          <li>
+            <a href="index.html" class="text-heading text-uppercase fw-semibold font-heading hover-text-main-600 hover-underline">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-heading text-uppercase fw-semibold font-heading hover-text-main-600 hover-underline">About Me</a>
+          </li>
+          <li>
+            <a href="#" class="text-heading text-uppercase fw-semibold font-heading hover-text-main-600 hover-underline">Projects</a>
+          </li>
+          <li>
+            <a href="#" class="text-heading text-uppercase fw-semibold font-heading hover-text-main-600 hover-underline">My Stack</a>
+          </li>
+          <li>
+            <a href="#" class="text-heading text-uppercase fw-semibold font-heading hover-text-main-600 hover-underline">News</a>
+          </li>
+          <li>
+            <a href="#" class="text-heading text-uppercase fw-semibold font-heading hover-text-main-600 hover-underline">Lets Talk</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- bottom Footer start -->
+  <div class="tw-py-8">
+    <div class="container">
+      <p class="text-light text-line-1 fw-semibold tw-text-sm text-uppercase text-center letter-spacing-1-px">
+        &copy; <span class="current-year">2025</span> <a href="index.html"
+          class="fw-semibold text-main-600 hover-text-main-600 hover-underline hover-text-white">rieo</a>. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+  <!-- bottom Footer end -->
+
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+        </main>
+    </div>
+</div>
+
+
+
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!-- phosphor Js -->
+<script src="assets/js/phosphor-icon.js"></script>
+<!-- Bootstrap Bundle Js -->
+<script src="assets/js/boostrap.bundle.min.js"></script>
+<!-- magnific popup -->
+<script src="assets/js/magnific-popup.min.js"></script>
+<!-- swiper slider -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- aos -->
+<script src="assets/js/aos.js"></script>
+
+<!-- GSAP js -->
+<script src="assets/js/gsap.min.js"></script>
+<!-- SplitText -->
+<script src="assets/js/SplitText.min.js"></script>
+<!-- Scroll Trigger -->
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<!-- ScrollSmoother -->
+<script src="assets/js/ScrollSmoother.min.js"></script>
+<!-- custom GSAP -->
+<script src="assets/js/custom-gsap.js"></script>
+
+<!-- main js -->
+<script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+/* Hover color class start */
+@each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+        .hover-text-#{$color}-#{$shade} {
+            &:hover {
+                color: var(--#{$color}-#{$shade}) !important;
+            }
+        }
+    }
+}
+
+/* Text Color */
+.hover-text {
+   &-black {
+        &:hover {
+            color: hsl(var(--black)) !important;
+        }
+    }
+}
+/* Hover color class end */

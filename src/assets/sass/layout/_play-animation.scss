@@ -1,0 +1,41 @@
+/* Play Animation css start */
+.play-button::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    inset-inline-start: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-animation: animate 2.3s ease-out infinite;
+    animation: animate 2.3s ease-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    30% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+
+    100% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+/* Play Animation css end */

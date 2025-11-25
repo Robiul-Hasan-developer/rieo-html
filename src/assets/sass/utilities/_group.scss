@@ -1,0 +1,54 @@
+/* ======================== Group Css Start =============================== */
+.group {
+  &:hover {
+    .group-hover-text {
+      &-white {
+        color: hsl(var(--white)) !important;
+      }
+
+      &-main-600 {
+        color: var(--main-600) !important;
+      }
+    }
+
+    .group-hover-bg {
+      &-white {
+        background-color: hsl(var(--white)) !important;
+      }
+
+      &-black {
+        background-color: hsl(var(--black)) !important;
+      }
+
+      &-main-600 {
+        background-color: var(--main-600) !important;
+      }
+    }
+  }
+}
+
+.tw-invisible {
+  visibility: hidden;
+}
+
+.group-item {
+  &:hover {
+    .group-hover-item-visible {
+      visibility: visible;
+    }
+
+    .group-hover-item-opacity-1 {
+      opacity: 1 !important;
+    }
+
+    .group-hover-item-scale-1 {
+      transform: scale(1);
+    }
+
+    .group-hover-item-scale-12 {
+      transform: scale(1.2);
+    }
+  }
+}
+
+/* ======================== Group Css End =============================== */

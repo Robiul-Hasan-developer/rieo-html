@@ -1,0 +1,20 @@
+/* Footer Css start */
+.footer {
+    background-color: #132422;
+}
+
+.hover-underline {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.text-light {
+    color: #A3A596 !important;
+}
+.letter-spacing {
+    &-1-px {
+        letter-spacing: 1px;
+    }
+}
+/* Footer Css End */

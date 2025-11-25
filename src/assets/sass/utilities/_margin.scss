@@ -1,0 +1,43 @@
+/* ================================= Margin Css Start =========================== */
+@each $property, $value in $spaces {
+  .tw-m-#{$property} {
+    margin: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-mx-#{$property} {
+    margin-inline: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-my-#{$property} {
+    margin-block: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-ms-#{$property} {
+    margin-inline-start: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-me-#{$property} {
+    margin-inline-end: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-mt-#{$property} {
+    margin-block-start: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-mb-#{$property} {
+    margin-block-end: var(--size-#{$property});
+  }
+}
+/* ================================= Margin Css End =========================== */

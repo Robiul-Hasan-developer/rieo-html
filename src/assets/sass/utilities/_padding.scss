@@ -1,0 +1,82 @@
+/* ================================= Padding Css Start =========================== */
+@each $property, $value in $spaces {
+  .tw-p-#{$property} {
+    padding: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-px-#{$property} {
+    padding-inline: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-py-#{$property} {
+    padding-block: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-ps-#{$property} {
+    padding-inline-start: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-pe-#{$property} {
+    padding-inline-end: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-pt-#{$property} {
+    padding-block-start: var(--size-#{$property});
+  }
+}
+
+@each $property, $value in $spaces {
+  .tw-pb-#{$property} {
+    padding-block-end: var(--size-#{$property});
+  }
+}
+
+.mt-96-px {
+  margin-block-start: 96px;
+}
+
+.pb-150-px {
+  padding-block-end: 150px;
+}
+
+.py-120 {
+  padding-block-start: 60px;
+  padding-block-end: 60px;
+  @media (min-width: 576px) {
+    padding-block-start: 80px;
+    padding-block-end: 80px;
+  }
+  @media (min-width: 992px) {
+    padding-block-start: 120px;
+    padding-block-end: 120px;
+  }
+}
+.pt-120 {
+    padding-block-start: 60px;
+    @media (min-width: 576px) {
+      padding-block-start: 80px;
+    }
+    @media (min-width: 992px) {
+    padding-block-start: 120px;
+  }
+}
+.pb-120 {
+    padding-block-end: 60px;
+    @media (min-width: 576px) {
+      padding-block-end: 80px;
+    }
+    @media (min-width: 992px) {
+      padding-block-end: 120px;
+    }
+}
+/* ================================= Padding Css End =========================== */

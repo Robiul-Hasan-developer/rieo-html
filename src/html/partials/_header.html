@@ -1,0 +1,73 @@
+<!-- ==================== Header Start Here ==================== -->
+<header class="header tw-transition-all tw-z-99">
+  <div class="container">
+    <nav class="d-flex align-items-center justify-content-between position-relative">
+      <!-- Logo Start -->
+      <div class="logo">
+        <a href="index.html" class="link">
+          <img src="assets/images/logo/logo.png" alt="Logo" class="max-w-200-px">
+        </a>
+      </div>
+      <!-- Logo End  -->
+
+      <!-- Menu Start  -->
+      <div class="header-menu d-lg-block d-none">
+        @@include('../partials/_nav-menu.html', { "class" : "tw-gap-6" })
+      </div>
+      <!-- Menu End  -->
+
+      <!-- Header Right start -->
+      <div class="d-lg-flex d-none align-items-center tw-gap-6">
+        <ul class="d-flex align-items-center tw-gap-5">
+          <li>
+            <a href="https://www.dribbble.com" class="tw-text-lg text-main-600 hover-text-main-700">
+              <i class="ph ph-dribbble-logo"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="tw-text-lg text-main-600 hover-text-main-700">
+              <i class="ph-fill ph-twitter-logo"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" class="tw-text-lg text-main-600 hover-text-main-700">
+              <i class="ph ph-instagram-logo"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center tw-gap-1">
+          <span class="tw-w-px bg-white bg-opacity-50 tw-h-4"></span>
+          <span class="tw-w-px bg-white bg-opacity-50 tw-h-7"></span>
+        </div>
+        <div class="d-flex align-items-center tw-gap-3">
+          <button type="button"
+            class="tw-text-2xl tw-leading-none text-heading hover-text-main-600 position-relative tw-pe-205 tw-pt-1">
+            <i class="ph ph-basket"></i>
+            <span class="tw-text-sm fw-bold text-main-600 position-absolute end-0 top-0 ">0</span>
+          </button>
+          <button type="button"
+            class="search-popup__button tw-text-2xl tw-leading-none text-heading hover-text-main-600">
+            <i class="ph-bold ph-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="">
+          <a href="#"
+            class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+            data-block="button">
+            <span class="button__flair"></span>
+            <span class="button__label tw-ps-4">LET'S Work</span>
+            <span
+              class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+              <i class="ph-bold ph-arrow-up-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+      <button type="button" class="toggle-mobileMenu leading-none d-lg-none ms-3 text-white tw-text-9">
+        <i class="ph ph-list"></i>
+      </button>
+      <!-- Header Right End  -->
+    </nav>
+  </div>
+</header>
+<!-- ==================== Header End Here ==================== -->

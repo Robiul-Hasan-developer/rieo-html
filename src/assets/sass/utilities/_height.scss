@@ -1,0 +1,15 @@
+/* Height Css Class Start */
+@each $property, $value in $spaces {
+  .tw-h-#{$property} {
+    height: $value;
+  }
+}
+
+.tw-h-320-px {
+  height: 320px;
+}
+
+.min-h-700-px {
+  min-height: 700px;
+}
+/* Height Css Class End */

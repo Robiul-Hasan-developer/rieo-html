@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="EduAll, Social Media, and Digital Marketing Agency HTML Template. Fully responsive, creative design, and easy to customize. Ideal for EduAll agencies, marketing firms, and startups.">
+  <meta name="keywords"
+    content="EduAll HTML Template, Digital Marketing, Social Media Agency, Marketing Template, Advertising Agency, Creative Agency, Bootstrap, Responsive">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Portfolio HTML Template</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <!-- Swiper slider -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="background-img bg-img" data-background-image="assets/images/bg/gradient-bg.png">
+  <!--==================== Preloader Start ====================-->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!--==================== Preloader End ====================-->
+
+  @@include('../partials/_settings-panel.html')
+
+  <!--==================== Overlay Start ====================-->
+  <div class="overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay End ====================-->
+  <div class="side-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+
+  <!-- Custom Toast Message start -->
+  <div id="toast-container"></div>
+  <!-- Custom Toast Message End -->
+
+  <!-- ==================== Scroll to Top End Here ==================== -->
+  <div class="progress-wrap cursor-big">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- ==================== Scroll to Top End Here ==================== -->
+
+  <!-- Custom Cursor Start -->
+  <div class="cursor"></div>
+  <span class="dot"></span>
+  <!-- Custom Cursor End -->
+
+  <!-- ==================== Search Popup Start Here ==================== -->
+  <div class="search-popup bg-white tw-py-17 tw-px-4 d-flex align-items-center justify-content-center bg-white">
+    <div class="container">
+      <div class="tw-pb-15">
+        <button type="button"
+          class="search-popup__close d-flex justify-content-center align-items-center text-black tw-text-2xl tw-w-16 tw-h-16 bg-main-600 rounded-circle mx-auto">
+          <i class="ph-bold ph-x"></i>
+        </button>
+      </div>
+      <form action="#" class="search-popup__form position-relative tw-pt-6">
+        <input type="search" class="search-popup__input text-black" placeholder="Search Here...">
+        <button type="submit"
+          class="tw-text-3xl tw-leading-none text-heading hover-text-main-600 position-absolute tw-end-0 top-50 translate-middle-y">
+          <i class="ph-bold ph-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- ==================== Search Popup End Here ==================== -->
+
+  @@include('../partials/_mobile-menu.html')

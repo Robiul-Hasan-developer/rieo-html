@@ -1,0 +1,7 @@
+/* Gap Css start */
+@each $property, $value in $spaces {
+  .tw-gap-#{$property} {
+    gap: var(--size-#{$property});
+  }
+}
+/* Gap Css end */
