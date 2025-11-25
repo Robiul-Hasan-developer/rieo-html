@@ -3402,7 +3402,7 @@ input:focus, input:focus-visible {
 /* Mobile Menu Sidebar Start */
 .mobile-menu {
     transform: translateX(-100%);
-    height: 100vh;
+    height: calc(100vh + 36px);
     width: 300px;
 }
 
@@ -3747,8 +3747,10 @@ input:focus, input:focus-visible {
 
 /* Team section css end */
 /* About section css start */
-.about__thumb {
-    max-width: 430px;
+@media (min-width: 768px) {
+    .about__thumb {
+        max-width: 430px;
+    }
 }
 
 .about__content {

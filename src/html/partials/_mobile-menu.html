@@ -1,7 +1,9 @@
 <!-- ==================== Mobile Menu Start Here ==================== -->
-<div class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-neutral-800 overflow-y-auto tw-p-6 tw-z-999 tw-pb-15">
+<div
+    class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-neutral-800 overflow-y-auto tw-p-6 tw-z-999 tw-pb-15">
 
-    <button type="button" class="close-button position-absolute end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"> 
+    <button type="button"
+        class="close-button position-absolute end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white">
         <i class="ph ph-x"></i>
     </button>
 
@@ -11,8 +13,20 @@
         </a>
         <div class="mobile-menu__menu">
             @@include('../partials/_nav-menu.html', {
-                "class" : "nav-menu--mobile d-block tw-mt-8"
+            "class" : "nav-menu--mobile d-block tw-mt-8"
             })
+        </div>
+        <div class="d-xl-none d-block tw-mt-10">
+            <a href="#"
+                class="btn btn-main hover-style-one button--stroke tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-6 group active--translate-y-2"
+                data-block="button">
+                <span class="button__flair"></span>
+                <span class="button__label tw-ps-4">LET'S Work</span>
+                <span
+                    class="tw-w-11 tw-h-10 bg-main-600 text-black tw-text-2xl d-flex justify-content-center align-items-center position-relative group-hover-bg-black group-hover-text-white tw-duration-500">
+                    <i class="ph-bold ph-arrow-up-right"></i>
+                </span>
+            </a>
         </div>
     </div>
 </div>
