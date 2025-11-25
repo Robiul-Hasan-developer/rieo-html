@@ -135,6 +135,50 @@
     // Direction end
     // ========================== Settings Panel Js End =====================
 
+     // ================================ Floating Progress js start =================================
+    const progressContainers = document.querySelectorAll(".progress-container");
+
+    function setPercentage(progressContainer) {
+      const percentage =
+        progressContainer.getAttribute("data-percentage") + "%";
+
+      const progressEl = progressContainer.querySelector(".progress");
+      const percentageEl = progressContainer.querySelector(".percentage");
+
+      progressEl.style.width = percentage;
+      percentageEl.innerText = percentage;
+      percentageEl.style.insetInlineStart = percentage;
+    }
+
+    // Intersection Observer to trigger progress animation when section is in view
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Element is in view, start the progress animation
+            const progressContainer = entry.target;
+            setPercentage(progressContainer);
+            progressContainer
+              .querySelector(".progress")
+              .classList.remove("active");
+            progressContainer
+              .querySelector(".percentage")
+              .classList.remove("active");
+            observer.unobserve(progressContainer); // Stop observing once animation is triggered
+          }
+        });
+      },
+      {
+        threshold: 0.5, // Adjust this value as needed (0.5 means half the section needs to be visible)
+      }
+    );
+
+    // Start observing all progress containers
+    progressContainers.forEach((progressContainer) => {
+      observer.observe(progressContainer);
+    });
+    // ================================ Floating Progress js End =================================
+    
     // ========================== Add Attribute For Bg Image Js Start ====================
     $(".background-img").css('background', function () {
       var bg = ('url(' + $(this).data("background-image") + ')');
