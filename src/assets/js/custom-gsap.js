@@ -170,7 +170,7 @@ if ($(".splitTextStyle").length) {
       y: "0",
       rotateX: "0",
       opacity: 1,
-      duration: 1,
+      duration: 1.2,
       ease: Back.easeOut,
       stagger: 0.04,
     });

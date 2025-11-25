@@ -226,6 +226,11 @@ h6, .h6 {
     color: hsl(var(--heading-color));
     line-height: 1.2;
     font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.font-heading {
+    letter-spacing: 1px;
 }
 
 h1, .h1 {
@@ -3007,6 +3012,10 @@ input:focus, input:focus-visible {
     max-width: 550px;
 }
 
+.max-w-1370-px {
+    max-width: 1370px;
+}
+
 .max-w-1430-px {
     max-width: 1430px;
 }
@@ -3320,6 +3329,10 @@ input:focus, input:focus-visible {
     transition-delay: 0.1s;
     margin-top: 0px;
     transform: scale(1);
+}
+
+.object-top {
+    object-position: top;
 }
 
 /* Mega menu css end */
@@ -3670,6 +3683,20 @@ input:focus, input:focus-visible {
 }
 
 /* Team section css end */
+/* About section css start */
+.about__thumb {
+    max-width: 430px;
+}
+
+.about__content {
+    max-width: 708px;
+}
+
+.about__desc {
+    max-width: 550px;
+}
+
+/* About section css end */
 /* ================================== rtl css start ================================== */
 /* ================================== rtl css End ================================== */
 /*# sourceMappingURL=main.css.map */

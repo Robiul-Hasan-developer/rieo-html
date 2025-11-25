@@ -48,6 +48,11 @@ h6, .h6 {
   color: hsl(var(--heading-color));
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.font-heading {
+  letter-spacing: 1px;
 }
 
 h1, .h1 {
