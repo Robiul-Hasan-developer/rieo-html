@@ -5,9 +5,16 @@
 <div id="smooth-wrapper" class="mt-96-px">
     <div id="smooth-content" class="pb-150-px">
         <main>  
-            @@include('../partials/_banner.html')
-            
-            @@include('../partials/_about.html')
+            <div class="sections-wrapper">
+                <div class="container">
+                    <div class="position-relative z-1">
+                        <img src="assets/images/shapes/square-shape-one.png" alt="Square Shapes" class="position-absolute top-0 start-0 bottom-0 end-0 z-n1">
+                        @@include('../partials/_banner.html')
+                        
+                        @@include('../partials/_about.html')
+                    </div>
+                </div>
+            </div>
             
             @@include('../partials/_video.html')
             

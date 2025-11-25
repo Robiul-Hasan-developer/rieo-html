@@ -50,33 +50,16 @@
 }
 
 .py-120 {
-  padding-block-start: 60px;
-  padding-block-end: 60px;
-  @media (min-width: 576px) {
-    padding-block-start: 80px;
-    padding-block-end: 80px;
-  }
-  @media (min-width: 992px) {
-    padding-block-start: 120px;
-    padding-block-end: 120px;
-  }
+  padding-block-start: 120px;
+  padding-block-end: 120px;
 }
+
 .pt-120 {
-    padding-block-start: 60px;
-    @media (min-width: 576px) {
-      padding-block-start: 80px;
-    }
-    @media (min-width: 992px) {
-    padding-block-start: 120px;
-  }
+  padding-block-start: 120px;
 }
+
 .pb-120 {
-    padding-block-end: 60px;
-    @media (min-width: 576px) {
-      padding-block-end: 80px;
-    }
-    @media (min-width: 992px) {
-      padding-block-end: 120px;
-    }
+  padding-block-end: 120px;
 }
+
 /* ================================= Padding Css End =========================== */

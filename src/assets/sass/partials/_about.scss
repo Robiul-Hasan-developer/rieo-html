@@ -1,8 +1,13 @@
 /* About section css start */
 .about {
+    margin-block-start: 214px;
+    margin-block-end: 120px;
+
     &__thumb {
         @media (min-width: 768px) {
-            max-width: 430px;
+            max-width: 426px;
+            margin-inline-start: 43px;
+            margin-block-start: 8px;
         }
     }
 
@@ -14,4 +19,5 @@
         max-width: 550px;
     }
 }
+
 /* About section css end */

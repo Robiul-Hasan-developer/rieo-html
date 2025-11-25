@@ -1173,6 +1173,10 @@ input:focus, input:focus-visible {
     font-size: 80px;
 }
 
+.tw-text-45-px {
+    font-size: 45px;
+}
+
 .fw-800 {
     font-weight: 800;
 }
@@ -2855,55 +2859,18 @@ input:focus, input:focus-visible {
 }
 
 .py-120 {
-    padding-block-start: 60px;
-    padding-block-end: 60px;
-}
-
-@media (min-width: 576px) {
-    .py-120 {
-        padding-block-start: 80px;
-        padding-block-end: 80px;
-    }
-}
-
-@media (min-width: 992px) {
-    .py-120 {
-        padding-block-start: 120px;
-        padding-block-end: 120px;
-    }
+    padding-block-start: 120px;
+    padding-block-end: 120px;
 }
 
 .pt-120 {
-    padding-block-start: 60px;
-}
-
-@media (min-width: 576px) {
-    .pt-120 {
-        padding-block-start: 80px;
-    }
-}
-
-@media (min-width: 992px) {
-    .pt-120 {
-        padding-block-start: 120px;
-    }
+    padding-block-start: 120px;
 }
 
 .pb-120 {
-    padding-block-end: 60px;
+    padding-block-end: 120px;
 }
 
-@media (min-width: 576px) {
-    .pb-120 {
-        padding-block-end: 80px;
-    }
-}
-
-@media (min-width: 992px) {
-    .pb-120 {
-        padding-block-end: 120px;
-    }
-}
 /* ================================= Padding Css End =========================== */
 /* Border Radius Css Start */
 .tw-rounded {
@@ -3699,6 +3666,45 @@ input:focus, input:focus-visible {
     }
 }
 /* Play Animation css end */
+/* Banner section css start */
+@media (min-width: 1200px) {
+    .banner {
+        margin-bottom: 114px;
+    }
+
+    .banner__thumb {
+        transform: translate(-148px, 115px);
+        max-width: 424px;
+    }
+
+    .banner__content {
+        transform: translate(24px, 70px);
+    }
+}
+/* Banner section css end */
+/* About section css start */
+.about {
+    margin-block-start: 214px;
+    margin-block-end: 120px;
+}
+
+@media (min-width: 768px) {
+    .about__thumb {
+        max-width: 426px;
+        margin-inline-start: 43px;
+        margin-block-start: 8px;
+    }
+}
+
+.about__content {
+    max-width: 708px;
+}
+
+.about__desc {
+    max-width: 550px;
+}
+
+/* About section css end */
 /* Team section css start */
 .line-border {
     position: absolute;
@@ -3756,22 +3762,6 @@ input:focus, input:focus-visible {
 }
 
 /* Team section css end */
-/* About section css start */
-@media (min-width: 768px) {
-    .about__thumb {
-        max-width: 430px;
-    }
-}
-
-.about__content {
-    max-width: 708px;
-}
-
-.about__desc {
-    max-width: 550px;
-}
-
-/* About section css end */
 /* ================================== rtl css start ================================== */
 /* ================================== rtl css End ================================== */
 /*# sourceMappingURL=main.css.map */
