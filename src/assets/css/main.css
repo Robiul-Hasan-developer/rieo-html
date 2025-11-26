@@ -3666,6 +3666,138 @@ input:focus, input:focus-visible {
     }
 }
 /* Play Animation css end */
+/* Banner section css start */
+.square-box-shape-image {
+    display: none;
+}
+
+@media (min-width: 1600px) {
+    .square-box-shape-image {
+        display: block;
+    }
+}
+
+.banner__wrapper {
+    align-items: center;
+}
+
+@media (min-width: 1600px) {
+    .banner__wrapper {
+        align-items: end;
+    }
+}
+
+@media (min-width: 1600px) {
+    .banner {
+        margin-bottom: 114px;
+    }
+
+    .banner__thumb {
+        transform: translate(-148px, 115px);
+        max-width: 424px;
+    }
+
+    .banner__content {
+        transform: translate(24px, 70px);
+    }
+}
+
+@media (max-width: 1599px) {
+    .banner__content {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner__thumb {
+        flex-grow: 1;
+    }
+}
+
+.element {
+    position: absolute;
+    display: none !important;
+}
+
+@media (min-width: 1600px) {
+    .element {
+        display: flex !important;
+    }
+}
+
+.element.one {
+    inset-inline-start: calc(3% + 6px);
+    inset-block-start: calc(2% + 1px);
+}
+
+.element.two {
+    inset-inline-end: 0;
+    margin-block-start: 24px;
+    margin-inline-end: 40px;
+}
+
+.element.three {
+    background-color: var(--main-600);
+    inset-inline-start: calc(18% + 2px);
+    inset-block-start: calc(7% + 11px);
+    width: 9%;
+    height: calc(7% + 11px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element.four {
+    inset-inline-start: calc(51% + 8px);
+    inset-block-start: calc(12% + 11px);
+}
+
+.element.five {
+    inset-block-start: calc(41% + 2px);
+    inset-inline-start: calc(39% + 0px);
+}
+
+.element.six {
+    inset-block-end: calc(8% + 10px);
+    inset-inline-start: calc(38% + 10px);
+}
+
+.animation-scale-updown {
+    animation: animationScaleUpDown 4s linear infinite;
+}
+
+.animation-rotate-right {
+    animation: animationRotateRight 15s linear infinite;
+}
+
+@keyframes animationScaleUpDown {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes animationRotateRight {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Banner section css end */
 /* About section css start */
 .about {
     margin-block-end: 20px;
