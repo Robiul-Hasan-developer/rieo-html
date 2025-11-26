@@ -6,16 +6,19 @@ var tl = gsap.timeline();
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 // **************************** ScrollSmoother js start ****************************
-// gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-// const smoother = ScrollSmoother.create({
-//   wrapper: "#smooth-wrapper",
-//   content: "#smooth-content",
-//   smooth: 1.35,
-//   effects: true,
-//   smoothTouch: 0.1,
-//   ignoreMobileResize: false,
-// });
+// create the smooth scroller FIRST!
+const smoother = ScrollSmoother.create({
+  content: "#scrollsmoother-container",
+  smooth: 3,
+  normalizeScroll: true,
+  ignoreMobileResize: true,
+	effects: true,
+  //preventDefault: true,
+  //ease: 'power4.out',
+  //smoothTouch: 0.1, 
+});
 // **************************** ScrollSmoother js End ****************************
 
 // **************************** Custom Cursor Js Start ****************************
@@ -284,7 +287,7 @@ if ($(".scale-up-wrapper").length > 0) {
 
     tl.to(section.querySelector(".scale-up__img"), {
       scale: 1.5,
-      y: 100
+      y: 100,
     });
   });
 }
