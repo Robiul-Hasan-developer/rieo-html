@@ -135,7 +135,7 @@
     // Direction end
     // ========================== Settings Panel Js End =====================
 
-     // ================================ Floating Progress js start =================================
+    // ================================ Floating Progress js start =================================
     const progressContainers = document.querySelectorAll(".progress-container");
 
     function setPercentage(progressContainer) {
@@ -178,10 +178,10 @@
       observer.observe(progressContainer);
     });
     // ================================ Floating Progress js End =================================
-    
+
     // ========================== Add Attribute For Bg Image Js Start ====================
-    $(".background-img").css('background', function () {
-      var bg = ('url(' + $(this).data("background-image") + ')');
+    $(".background-img").css("background", function () {
+      var bg = "url(" + $(this).data("background-image") + ")";
       return bg;
     });
     // ========================== Add Attribute For Bg Image Js End =====================
@@ -254,9 +254,14 @@
   // ==========================================
 
   // ========================= Preloader Js Start =====================
-  $(window).on("load", function () {
-    $(".loader-mask").fadeOut();
-  });
+  if ($("#preloader").length) {
+			$("#preloader").delay(1600).fadeOut();
+			setTimeout(function () {
+				$(".preloader-bg-one").css("transform", "translateY(-100%)");
+				$(".preloader-bg-two").css("transform", "translateY(100%)");
+				$(".txt-loading").css("opacity", 0);
+			}, 1000);
+		}
   // ========================= Preloader Js End=====================
 
   // ========================= Header Sticky Js Start ==============

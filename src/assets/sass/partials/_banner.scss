@@ -123,13 +123,4 @@
         transform: rotate(360deg)
     }
 }
-
-.animated-title div div {
-    &:hover {
-        transform: scaleY(1.5);
-        transform-origin: bottom;
-        transition: .3s;
-    }
-}
-
 /* Banner section css end */
