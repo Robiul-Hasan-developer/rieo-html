@@ -3434,7 +3434,7 @@ input:focus, input:focus-visible {
     transform: translateY(15px);
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
-    background-color: #fff;
+    background-color: var(--neutral-600);
     mix-blend-mode: difference;
 }
 
@@ -3557,7 +3557,7 @@ input:focus, input:focus-visible {
     background-color: transparent;
     text-align: left;
     border: none;
-    border-bottom: 1px solid var(--neutral-200);
+    border-bottom: 1px solid var(--neutral-500);
     padding-left: 0;
     border-radius: 0;
     width: 100%;
