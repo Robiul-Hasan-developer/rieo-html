@@ -8,16 +8,12 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 // **************************** ScrollSmoother js start ****************************
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-// create the smooth scroller FIRST!
 const smoother = ScrollSmoother.create({
   content: "#scrollsmoother-container",
-  smooth: 3,
+  smooth: 2,
   normalizeScroll: true,
   ignoreMobileResize: true,
 	effects: true,
-  //preventDefault: true,
-  //ease: 'power4.out',
-  //smoothTouch: 0.1, 
 });
 // **************************** ScrollSmoother js End ****************************
 

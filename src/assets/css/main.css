@@ -3215,6 +3215,7 @@ input:focus, input:focus-visible {
     backdrop-filter: blur(24px);
     animation: slideDown 0.35s ease-out;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    background-color: #000000ad;
 }
 
 @media screen and (max-width: 991px) {
@@ -3566,7 +3567,7 @@ input:focus, input:focus-visible {
 
 .search-popup__input:focus {
     outline: 0;
-    border-color: var(--main-600);
+    border-color: var(--neutral-800);
 }
 
 .search-popup__close {

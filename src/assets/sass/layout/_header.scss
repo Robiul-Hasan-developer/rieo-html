@@ -14,6 +14,7 @@
     backdrop-filter: blur(24px);
     animation: slideDown 0.35s ease-out;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    background-color: #000000ad;
 
     @include md-screen {
       inset-block-start: -1px;
