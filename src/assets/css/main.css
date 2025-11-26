@@ -6,7 +6,7 @@
     --heading-font: "Barlow", sans-serif;
     --body-font: "Poppins", sans-serif;
   /* Font Size Variable Start */
-    --heading-one: clamp(2.75rem, -0.0733rem + 6.3692vw, 8.125rem);
+    --heading-one: clamp(4rem, -0.0733rem + 6.3692vw, 8.125rem);
     --heading-two: clamp(1.75rem, 0.7133rem + 2.8846vw, 3.125rem);
     --heading-three: clamp(1.5rem, 0.3353rem + 2.1661vw, 2.5rem);
     --heading-four: clamp(1.25rem, 0.5569rem + 1.444vw, 2rem);
@@ -3666,26 +3666,15 @@ input:focus, input:focus-visible {
     }
 }
 /* Play Animation css end */
-/* Banner section css start */
-@media (min-width: 1200px) {
-    .banner {
-        margin-bottom: 114px;
-    }
-
-    .banner__thumb {
-        transform: translate(-148px, 115px);
-        max-width: 424px;
-    }
-
-    .banner__content {
-        transform: translate(24px, 70px);
-    }
-}
-/* Banner section css end */
 /* About section css start */
 .about {
-    margin-block-start: 214px;
-    margin-block-end: 120px;
+    margin-block-end: 20px;
+}
+
+@media (min-width: 1600px) {
+    .about {
+        margin-block-start: 214px;
+    }
 }
 
 @media (min-width: 768px) {

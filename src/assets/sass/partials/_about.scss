@@ -1,7 +1,9 @@
 /* About section css start */
 .about {
-    margin-block-start: 214px;
-    margin-block-end: 120px;
+    margin-block-end: 20px;
+    @media (min-width: 1600px) {
+        margin-block-start: 214px;
+    }
 
     &__thumb {
         @media (min-width: 768px) {

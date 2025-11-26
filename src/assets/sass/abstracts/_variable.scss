@@ -76,7 +76,7 @@ $font-sizes: (
   --body-font: "Poppins", sans-serif;
   
   /* Font Size Variable Start */
-  --heading-one: clamp(2.75rem, -0.0733rem + 6.3692vw, 8.125rem); // Min:44px - Max:130px
+  --heading-one: clamp(4rem, -0.0733rem + 6.3692vw, 8.125rem); // Min:44px - Max:130px
   --heading-two: clamp(1.75rem, 0.7133rem + 2.8846vw, 3.125rem); // Min: 28px - Max: 50px
   --heading-three: clamp(1.5rem, 0.3353rem + 2.1661vw, 2.5rem); // Min: 24px - Max: 40px
   --heading-four: clamp(1.25rem, 0.5569rem + 1.444vw, 2rem); // Min: 20px - Max: 32px
