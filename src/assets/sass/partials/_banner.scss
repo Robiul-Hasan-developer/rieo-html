@@ -9,6 +9,7 @@
 
 .banner__wrapper {
     align-items: center;
+
     @media (min-width: 1600px) {
         align-items: end;
     }
@@ -35,6 +36,7 @@
         display: flex;
         justify-content: center;
     }
+
     .banner__thumb {
         flex-grow: 1;
     }
@@ -119,6 +121,14 @@
 
     100% {
         transform: rotate(360deg)
+    }
+}
+
+.animated-title div div {
+    &:hover {
+        transform: scaleY(1.5);
+        transform-origin: bottom;
+        transition: .3s;
     }
 }
 

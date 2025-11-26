@@ -3798,6 +3798,13 @@ input:focus, input:focus-visible {
         transform: rotate(360deg);
     }
 }
+
+.animated-title div div:hover {
+    transform: scaleY(1.5);
+    transform-origin: bottom;
+    transition: 0.3s;
+}
+
 /* Banner section css end */
 /* About section css start */
 .about {
